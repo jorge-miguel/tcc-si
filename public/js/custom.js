@@ -16,7 +16,7 @@ $(document).ready(function() {
 
                     $.each(data, function(key, value){
 
-                        $('select[name="area"]').append('<option value="'+ key +'">' + value + '</option>');
+                        $('select[name="area"]').append('<option value="'+ key +'">i ' + value + '</option>');
 
                     });
                 },
